@@ -364,7 +364,6 @@ void DSP::reset() {
 #endif
 
   REG(flg) = 0xe0;
-  REG(endx) = 0xff;
 
   reset_common();
 }
